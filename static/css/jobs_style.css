@@ -1,0 +1,201 @@
+.latest_jobs ul {
+    list-style: none;
+}
+
+li.jobs_listing {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+li.jobs_listing a {
+    text-decoration: none;
+    color: black;
+}
+
+li.jobs_listing a:hover {
+    text-decoration: underline;
+}
+
+.jobs_listing_left {
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.jobs_listing_left p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.jobs_listing_left ul {
+    list-style: none;
+}
+
+.jobs_listing_left ul li {
+    display: inline-block;
+    padding: 5px 5px 5px 0px;
+}
+
+.jobs_listing_left ul li a {
+    color: blue;
+}
+
+.jobs_listing_left ul li a:hover {
+    text-decoration: underline;
+}
+
+.jobs_listing_right p {
+    margin-top: 5px;
+}
+
+/* Jobsposts.php */
+.job_meta {
+    padding: 30px;
+    background-color: blue;
+    color: white;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 1fr;
+}
+
+.job_title h2 {
+    font-size: 2em;
+    text-align: left;
+}
+
+.job_ad_page {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.job_ad {
+    text-align: left;
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.job_ad p {
+    margin-bottom: 10px;
+}
+
+.job_ad a {
+    font-weight: normal;
+}
+
+.job_ad a:hover {
+    text-decoration: underline;
+}
+
+.job_ad h4 {
+ margin-bottom: 10px;
+}
+
+.job_application {
+    padding: 20px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+.job_applicants {
+    padding: 20px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+.job_applicants h4 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.job_applicants ul {
+    list-style: none;
+}
+
+li.job_applicants_list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 3fr;
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #333;
+    text-align: left;
+}
+
+.job_applicant_img img {
+    height: 200px;
+    width: 150px;
+}
+
+.job_applicant_info h4 {
+    text-transform: unset;
+    margin-bottom: 10px;
+}
+
+.job_applicant_info a {
+    color: blue;
+}
+
+.job_applicant_info a:hover {
+    font-weight: bold;
+}
+
+/* Right Side */
+.project_new {
+    background-color: lightgray;
+    padding: 20px 0 20px 0;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.project_new a {
+    font-size: 2em;
+}
+
+.project_new a:hover {
+    text-decoration: underline;
+}
+
+.project_similar {
+    background-color: lightgray;
+    color: #333;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.project_similar h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project_similar ul {
+    list-style: none;
+}
+
+.project_similar ul li {
+    padding-bottom: 5px;
+}
+
+.project_similar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Applications */
+.paragraph_body {
+    margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media(max-width: 800px){
+    .job_ad_page {
+        display: block;
+    }
+}

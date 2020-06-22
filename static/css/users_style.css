@@ -1,0 +1,205 @@
+.user_page {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 1fr;
+    text-align: left;
+}
+
+.user_page h4 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.user_page ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.user_page ul li {
+    padding: 2px 0 2px 0;
+}
+
+.user_page ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/* Left Side */
+.projects_recent, .jobs_section, .user_info, .user_jobs {
+    background-color: lightgray;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+
+/* Right Side */
+.user_welcome {
+    margin: 20px 0 20px 0;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+}
+
+.user_welcome h2 {
+    font-size: 2em;
+}
+
+.user_info p {
+    margin-bottom: 15px;
+}
+
+/* Profile Page */
+.profile_card {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 3fr;
+}
+
+.margin {
+    margin-top: 50px;
+}
+
+.user_img p {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.user_img span {
+    font-weight: bold;
+}
+
+.user_img img {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.user_info {
+    text-align: left;
+}
+
+.user_info h2 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.user_info h4 {
+    margin-bottom: 10px;
+}
+
+.user_info p {
+    margin-bottom: 20px;
+}
+
+.user_info form {
+    margin-top: 20px;
+}
+
+.portfolio_header {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 4fr 1fr 1fr;
+}
+
+h2.header {
+    font-weight: 2em;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.portfolio_list p, .portfolio_list h4 {
+    text-align: left;
+}
+
+.portfolio_list h4 {
+    margin-bottom: 5px;
+}
+
+.portfolio_list ul {
+    list-style: none;
+}
+
+.portfolio_list ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+/* Users list page */
+.user_list_grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 2fr;
+}
+
+.search_field h4 {
+    font-size: 2em;
+}
+
+.job_applicant_info h4 a {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.job_applicant_info h4 a:hover {
+    text-decoration: underline;
+}
+
+/* Comments */
+.message_card {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 3fr;
+}
+
+.message_img img {
+    height: 200px;
+    width: 150px;
+}
+
+.timestamp {
+    margin-top: 20px;
+}
+
+li.message_bubble {
+    list-style: none;
+}
+
+.message_bubble {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.message_body {
+    margin-bottom: 10px;
+}
+
+/* Media Queries */
+@media(max-width: 800px){
+    .user_list_grid {
+        display: block;
+    }
+
+    .user_img img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .user_page {
+        display: block;
+    }
+
+    .portfolio_header {
+        display: block;
+    }
+
+    .portfolio_list h4 {
+        margin-top: 10px;
+    }
+
+    .portfolio_list ul li p {
+        margin-bottom: 20px;
+    }
+}
